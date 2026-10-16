@@ -1,0 +1,8 @@
+{
+  "name": "Remix Jesmin Online Shopping - Mobile POS",
+  "description": "Bilingual Mobile Point of Sale (POS), thermal receipt billing, WhatsApp invoice sharing, inventory and sales reporting system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

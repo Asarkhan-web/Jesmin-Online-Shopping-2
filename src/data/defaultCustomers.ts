@@ -1,0 +1,48 @@
+import { CustomerProfile } from '../types.ts';
+
+export const DEFAULT_CUSTOMERS: CustomerProfile[] = [
+  {
+    id: 'cust-1',
+    name: 'Mohamed Asar',
+    phone: '+94 77 123 4567',
+    address: 'Main Street, Kalmunai',
+    points: 185,
+    totalSpent: 24500,
+    ordersCount: 8,
+    createdAt: Date.now() - 30 * 86400000,
+    lastVisit: '2 days ago',
+  },
+  {
+    id: 'cust-2',
+    name: 'Jesmin Banu',
+    phone: '+94 71 987 6543',
+    address: 'Beach Road, Colombo 06',
+    points: 340,
+    totalSpent: 41200,
+    ordersCount: 14,
+    createdAt: Date.now() - 60 * 86400000,
+    lastVisit: 'Yesterday',
+  },
+  {
+    id: 'cust-3',
+    name: 'Kugan Perumal',
+    phone: '+94 76 555 1212',
+    address: 'Hospital Junction, Batticaloa',
+    points: 95,
+    totalSpent: 11800,
+    ordersCount: 4,
+    createdAt: Date.now() - 14 * 86400000,
+    lastVisit: '5 days ago',
+  },
+  {
+    id: 'cust-4',
+    name: 'Fathima Rizwana',
+    phone: '+94 75 444 3322',
+    address: 'Kandy Road, Matale',
+    points: 120,
+    totalSpent: 16500,
+    ordersCount: 6,
+    createdAt: Date.now() - 20 * 86400000,
+    lastVisit: '1 week ago',
+  },
+];

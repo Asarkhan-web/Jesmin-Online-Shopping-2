@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11998e" />
+      <stop offset="100%" stop-color="#38ef7d" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#g)" />
+  <!-- Shopping Bag outline -->
+  <path d="M160 200 C160 140, 352 140, 352 200" stroke="#ffffff" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <rect x="120" y="200" width="272" height="232" rx="36" fill="#ffffff" />
+  <circle cx="216" cy="280" r="14" fill="#11998e" />
+  <circle cx="296" cy="280" r="14" fill="#11998e" />
+  <path d="M216 324 Q256 360 296 324" stroke="#11998e" stroke-width="14" stroke-linecap="round" fill="none" />
+</svg>
